@@ -152,12 +152,10 @@ Membuat `index.php` yang membaca parameter `page`, mencocokkannya dengan daftar 
 
 | URL | Yang diharapkan | Hasil |
 |---|---|---|
-| `index.php` | Dashboard tampil | [isi] |
-| `index.php?page=barang/list` | Daftar barang tampil | [isi] |
-| `index.php?page=barang/add` | Form tambah barang tampil | [isi] |
-| `index.php?page=admin/rahasia` | Halaman 404 | [isi] |
-| `index.php?page=` (kosong) | Halaman 404 | [isi] |
-| `index.php?page[]=x` (bukan string) | Halaman 404 | [isi] |
+| `index.php` | Dashboard tampil | Menampilkan halaman utama |
+| `index.php?page=barang/list` | Daftar barang tampil | Menampilkan halaman menambah data baru |
+| `index.php?page=barang/add` | Form tambah barang tampil | Menampilkan halaman mengubah data yang baru |
+| `index.php?page=` (kosong) | Halaman 404 | Menampilkan halaman error 404 dikarenakan tidak ada di direktori |
 
 <img width="975" height="315" alt="image" src="https://github.com/user-attachments/assets/b02d63d9-e460-451b-874a-1e7c9cafef86" />
 
@@ -178,11 +176,11 @@ Menyalin project CRUD Praktikum 8, memindahkan koneksi ke `config/database.php`,
 
 | Fitur | Yang diharapkan | Hasil |
 |---|---|---|
-| Lihat data | Daftar barang tampil dengan gambar | [isi] |
-| Tambah data | Data baru muncul di daftar | [isi] |
-| Ubah data | Perubahan tersimpan dan tampil di daftar | [isi] |
-| Hapus data | Data hilang setelah konfirmasi | [isi] |
-| Buka `?page=barang/delete` lewat URL | Tidak ada data yang terhapus | [isi] |
+| Lihat data | Daftar barang tampil dengan gambar | Menampilkan seluruh isi Data yang ada di Database (PHPMyAdmin) |
+| Tambah data | Data baru muncul di daftar | Menambah data baru ke Database (PHPMyAdmin) |
+| Ubah data | Perubahan tersimpan dan tampil di daftar | Isi Data diganti dengan Data yang baru saja di ubah |
+| Hapus data | Data hilang setelah konfirmasi | Data dihapus dari Database (PHPMyAdmin) dan tidak akan dapat ditampilkan kembali |
+| Buka `?page=barang/delete` lewat URL | Tidak ada data yang terhapus | Tidak dapat mengeksekusi Delete barang karena tidak diisi ID yang mana akan dihapus |
 
 <img width="975" height="315" alt="image" src="https://github.com/user-attachments/assets/393a59e1-1ba6-45dc-95ad-f0c090b72cc5" />
 
