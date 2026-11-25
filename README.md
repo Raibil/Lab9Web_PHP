@@ -108,7 +108,7 @@ Contoh: `http://localhost/crud_modular/index.php?page=barang/list`
 
 ## Langkah Praktikum
 
-Setiap langkah diikuti hasil uji dan screenshot-nya. Simpan semua gambar di folder `screenshot/` pada repository dan sesuaikan nama file bila perlu.
+Setiap langkah diikuti hasil uji dan screenshot-nya.
 
 ### 1. Uji include dan require
 
