@@ -132,15 +132,17 @@ Membuat `header.php`, `footer.php`, serta halaman Home, Tentang, dan Kontak yang
 
 Membuat function tanpa parameter, dengan parameter, dan dengan `return`. Function latihan (`formatRupiah`, `konversiCelciusKeFahrenheit`, `tentukanStatusNilai`, `hitungTotal`) dipindahkan ke `helpers.php` dan dipanggil dari dua halaman.
 
-![Isi helpers.php](screenshot/06-helpers.png)
+<img width="583" height="496" alt="image" src="https://github.com/user-attachments/assets/475273cf-f232-4656-890e-8180f0eda1ff" />
 
-![Hasil pemanggilan function](screenshot/07-hasil-function.png)
+<img width="528" height="179" alt="image" src="https://github.com/user-attachments/assets/0fdbf88c-91f0-42ac-9f91-ca6613d542f3" />
+
+<img width="574" height="153" alt="image" src="https://github.com/user-attachments/assets/e8532657-e2ca-4168-a0e3-dd7cb57b372d" />
 
 ### 4. Struktur direktori modular
 
 Menyusun folder `config`, `views`, `helpers`, `modules`, dan `assets`.
 
-![Struktur direktori project di VS Code](screenshot/08-struktur-direktori.png)
+<img width="194" height="550" alt="image" src="https://github.com/user-attachments/assets/c5f3d77e-1ad2-482f-bdcd-215a7f47490c" />
 
 ### 5. Router dengan whitelist
 
@@ -157,15 +159,11 @@ Membuat `index.php` yang membaca parameter `page`, mencocokkannya dengan daftar 
 | `index.php?page=` (kosong) | Halaman 404 | [isi] |
 | `index.php?page[]=x` (bukan string) | Halaman 404 | [isi] |
 
-![Dashboard lewat router](screenshot/09-dashboard.png)
+<img width="975" height="315" alt="image" src="https://github.com/user-attachments/assets/b02d63d9-e460-451b-874a-1e7c9cafef86" />
 
-![Halaman 404 untuk page tidak terdaftar](screenshot/10-404.png)
+<img width="975" height="246" alt="image" src="https://github.com/user-attachments/assets/1878cc8e-2d6c-4749-b09d-e6a0a809fae2" />
 
-### 6. URL ringkas dengan .htaccess (opsional)
-
-[isi: dikerjakan atau dilewati, dan hasilnya]
-
-### 7. Integrasi CRUD
+### 6. Integrasi CRUD
 
 Menyalin project CRUD Praktikum 8, memindahkan koneksi ke `config/database.php`, template ke `views/`, function umum ke `helpers/functions.php`, halaman CRUD ke `modules/barang/`, dan mengubah semua tautan ke pola `index.php?page=...`.
 
@@ -186,10 +184,16 @@ Menyalin project CRUD Praktikum 8, memindahkan koneksi ke `config/database.php`,
 | Hapus data | Data hilang setelah konfirmasi | [isi] |
 | Buka `?page=barang/delete` lewat URL | Tidak ada data yang terhapus | [isi] |
 
-![Daftar data](screenshot/11-list.png)
+<img width="975" height="315" alt="image" src="https://github.com/user-attachments/assets/393a59e1-1ba6-45dc-95ad-f0c090b72cc5" />
 
-![Tambah data](screenshot/12-tambah.png)
+<img width="462" height="429" alt="image" src="https://github.com/user-attachments/assets/8e040630-e5ad-40d9-a65b-9ca4383b24e8" />
 
-![Ubah data](screenshot/13-ubah.png)
+<img width="823" height="336" alt="image" src="https://github.com/user-attachments/assets/06280e55-e0ac-40c3-95f7-e67efb967733" />
 
-![Hapus data](screenshot/14-hapus.png)
+<img width="447" height="401" alt="image" src="https://github.com/user-attachments/assets/d50329c6-53c1-4868-ad7e-c6fae1bfd555" />
+
+<img width="875" height="350" alt="image" src="https://github.com/user-attachments/assets/285fc74e-a71d-41b6-b02b-8a2c93f54638" />
+
+<img width="851" height="352" alt="image" src="https://github.com/user-attachments/assets/d02e7e2a-18ff-4269-9b82-40be7c26bdb1" />
+
+<img width="876" height="342" alt="image" src="https://github.com/user-attachments/assets/2bb89154-a0c7-40f6-9c08-4fd4aa841481" />
