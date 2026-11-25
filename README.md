@@ -114,19 +114,19 @@ Setiap langkah diikuti hasil uji dan screenshot-nya. Simpan semua gambar di fold
 
 Membuat `pesan.php` dan `uji-include.php`, lalu membandingkan `include` (warning, eksekusi lanjut) dengan `require` (error fatal, eksekusi berhenti) saat file tidak ditemukan.
 
-![Hasil include saat file tidak ada](screenshot/01-include.png)
+<img width="975" height="94" alt="image" src="https://github.com/user-attachments/assets/49fd526d-0b00-465b-a02f-d67820907efa" />
 
-![Hasil require saat file tidak ada](screenshot/02-require.png)
+<img width="975" height="78" alt="image" src="https://github.com/user-attachments/assets/c64e32ec-5392-43d9-96e0-eaccb7c609aa" />
 
 ### 2. Template layout
 
 Membuat `header.php`, `footer.php`, serta halaman Home, Tentang, dan Kontak yang memakai template yang sama lewat `require_once`.
 
-![Struktur direktori template](screenshot/03-struktur-template.png)
+<img width="325" height="422" alt="image" src="https://github.com/user-attachments/assets/0293e532-ec91-4e13-9427-319559fe051f" />
 
-![Halaman home.php](screenshot/04-home.png)
+<img width="646" height="350" alt="image" src="https://github.com/user-attachments/assets/04fc63fe-5ef0-467f-afed-67bf5281575e" />
 
-![Halaman about.php](screenshot/05-about.png)
+<img width="640" height="356" alt="image" src="https://github.com/user-attachments/assets/be00928d-caf7-4fa6-b9fb-3f65fd221594" />
 
 ### 3. Function dan helpers
 
