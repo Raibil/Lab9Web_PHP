@@ -1,10 +1,10 @@
 # Lab9Web - Praktikum 9: PHP Modular
 
-**Nama:** Raihan Nabil Mas'ud
-**NIM:** 312510094
-**Kelas:** I.25.1A
-**Mata kuliah:** Pemrograman Web
-
+|---|---|
+| **Nama** | Raihan Nabil Mas'ud |
+| **NIM** | 312510094 |
+| **Kelas** | I.25.1A |
+| **Mata Kuliah** | Pemrograman Web |
 ## Tujuan Project
 
 Praktikum ini memecah aplikasi PHP menjadi file-file dengan tanggung jawab yang jelas, menggunakan template bersama, function, dan routing sederhana. Tujuannya:
